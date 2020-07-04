@@ -1,6 +1,17 @@
 # AWS Function with GraalVM
 A sample micronaut application for deployment to AWS Lambda with GraalVM custom runtime
 
+#### Commands
+1. Build the package
+```
+mvn clean package
+```
+2. run deploy.sh
+```
+./deploy.sh
+```
+3. Upload the zip file from the build folder in to AWS lambda
+4. Create an API gateway with proxy resource and have AWS lambda be the backend function
 
 
 

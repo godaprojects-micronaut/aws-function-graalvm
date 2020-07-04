@@ -1,6 +1,11 @@
 # AWS Function with GraalVM
 A sample micronaut application for deployment to AWS Lambda with GraalVM custom runtime
 
+Created an App using this command
+```
+mn create-app aws-function-graalvm --build maven --features graalvm,aws-lambda-custom-runtime
+```
+
 #### Commands
 1. Build the package
 ```
@@ -24,4 +29,3 @@ mvn clean package
 ## Feature aws-lambda documentation
 
 - [Micronaut AWS Lambda Function documentation](https://micronaut-projects.github.io/micronaut-aws/latest/guide/index.html#lambda)
-

@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: aws.function.graalvm
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, aws-lambda, aws-lambda-custom-runtime, docker, file-watch, graalvm, java, junit, logback, maven, readme, shade, yaml]
